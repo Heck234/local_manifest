@@ -1,28 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<manifest>
-
 <!-- fetching sources -->      
 
-        <remote name="Amritorock"
-                fetch="https://github.com/Amritorock" />
-    
-         <remote name="ImSurajxD"
-                fetch="https://gitlab.com/ImSurajxD" />
- 
+        <remote name="Heck234"
+                fetch="https://github.com/Heck234" />
+
 <!-- device trees -->
 
-        <project path="device/realme/r5x" name="android_device_realme_r5x" remote="Amritorock" revision="PIXEL-13" />
-        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="Amritorock" revision="Trinket" />
-        <project path="kernel/realme/r5x" name="kernel_realme_r5x" remote="Amritorock" revision="Chisato" clone-depth="1" />
-
-<!-- Replacement -->
-
-        <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base" remote="Amritorock" revision="thirteen" />
-
-<!-- Custom Clang -->
-
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+        <project path="device/realme/r5x" name="android_device_realme_r5x" remote="Heck234" revision="PIXEL-13" />
+        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="Heck234" revision="Trinket" />
+        <project path="kernel/realme/r5x" name="kernel_realme_r5x" remote="Heck234" revision="Chisato" clone-depth="1" />
  
 </manifest>
